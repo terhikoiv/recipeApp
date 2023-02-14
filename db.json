@@ -1,0 +1,76 @@
+{
+  "projectObjects": [
+    {
+      "id": 1,
+      "name": "Arkiruokaa",
+      "description": "Nopeaa ja helppoa ruokaa arjen helpottamiseksi",
+      "participants": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mökkiviikkonloppu",
+      "description": "Tyttöjen kanssa syödään pelkkää pitsaa seuraavat kaksi viikkoa",
+      "participants": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "juhannustanssit",
+      "description": "Koko reissu seipäässä",
+      "participants": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4750606,
+      "name": "moonan ruokaa aamen",
+      "description": "Tämä lisättiin popupin kautta"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Antti",
+      "friends": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Moona",
+      "friends": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "username": "Minna",
+      "friends": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "username": "Terhi",
+      "friends": [
+        1,
+        3
+      ]
+    }
+  ]
+}

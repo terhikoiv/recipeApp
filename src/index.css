@@ -1,0 +1,88 @@
+
+.ButtonBar{
+
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+}
+.ButtonBar button {
+  background-color: #429137; /* Green background */
+  border: 1px solid rgb(0, 0, 0); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+.ButtonBar .DialogButton {
+  background-color: #f613f6; /* Green background */
+  border: 1px solid rgb(0, 0, 0); /* Green border */
+  color: rgb(228, 80, 80); /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Add a background color on hover */
+.ButtonBar button:hover {
+  background-color: #3e8e41;
+}
+.ButtonBar button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+  body {  
+    min-height: 100vh;
+    padding: 2rem;  
+    background-size: cover;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-repeat: no-repeat;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, #f1ede2 0%,
+                                        #f1ede2 20%,
+                                       #d2172e, 70%, 
+                                       #8f1222, 85%,
+                                       #4c0e16, 95%,
+                                       
+                                       #0a0a0a 98%);
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  article, dialog {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    box-shadow:
+      0.3px 0.5px 0.7px rgba(24, 14, 14, 0.36),
+      0.8px 1.6px 2px -0.8px rgba(0, 0, 0, 0.36),
+      2.1px 4.1px 5.2px -1.7px rgba(51, 26, 42, 0.36),
+      5px 10px 12.6px -2.5px rgba(0, 0, 0, 0.36);    
+    text-align: center;
+  }
+  
+ 
+
+img {
+  width: 20%;
+  height: auto;
+}
+
+  
+
